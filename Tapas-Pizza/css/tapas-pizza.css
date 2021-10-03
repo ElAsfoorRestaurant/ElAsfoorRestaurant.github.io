@@ -1,0 +1,27 @@
+body{
+	background-color:#fcfcfc;
+	margin:0;
+	padding:0;
+}
+
+.menu-container {
+    height: 90vh;
+}
+
+.menu-container img {
+    cursor: zoom-in;
+    max-width: 100%;
+    max-height: 90vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=checkbox] {
+    display: none;
+}
+input[type=checkbox]:checked ~ label > img {
+    transform: scale(2.5);
+    cursor: zoom-out;
+}
