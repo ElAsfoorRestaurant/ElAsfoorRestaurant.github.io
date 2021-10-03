@@ -25,3 +25,13 @@ $('.instagram').first().click(function() {
 $('.tripadvisor').first().click(function() {
     openUrlInNewTab(url_tripadvisor);
 });
+
+
+
+
+const base_url_menu_list = "../Menu-choice/Choix-menu-";
+
+function menuListFR() {
+    let url_menu_list = base_url_menu_list + "FR.html";
+    window.location.href = url_menu_list;
+}

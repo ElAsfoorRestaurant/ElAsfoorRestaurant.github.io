@@ -60,7 +60,6 @@
   content: "";
   height: 8px;
   width: 8px;
-  background-color: #ffffff;
   bottom: -3px;
   left: 50%;
   transform: translate(-50%) rotate(45deg);
@@ -79,23 +78,29 @@
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.wrapper .facebook:hover,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
+.wrapper .facebook,
+.wrapper .facebook .tooltip,
+.wrapper .facebook .tooltip::before {
   background-color: #3b5999;
   color: #ffffff;
 }
 
-.wrapper .instagram:hover,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
+.wrapper .instagram,
+.wrapper .instagram .tooltip,
+.wrapper .instagram .tooltip::before {
   background-color: #e1306c;
   color: #ffffff;
 }
 
-.wrapper .tripadvisor:hover,
-.wrapper .tripadvisor:hover .tooltip,
-.wrapper .tripadvisor:hover .tooltip::before {
+.wrapper .tripadvisor,
+.wrapper .tripadvisor .tooltip,
+.wrapper .tripadvisor .tooltip::before {
   background-color: #00af87;
   color: #ffffff;
+}
+
+
+.breaker {  
+  background-color: transparent !important;
+  box-shadow: none !important;
 }

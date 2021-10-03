@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 
 body {
-    overflow: hidden;
+    overflow: auto;
     background-color:#fcfcfc;
 }
 
@@ -15,12 +15,11 @@ body {
 .container{
     margin: 0;
     padding: 0;
-    height: 60vh;
+    height: 50%;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 5em;
   }
   .break {
       width: 100% !important;

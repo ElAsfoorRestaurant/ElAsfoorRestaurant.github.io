@@ -5,22 +5,6 @@ body{
 	padding:0;
 }
 
-@media screen {
-	#canvas {
-		transform: scale(1) !important;
-	}
-}
-@media screen and (max-width: 1200px) {
-	#canvas {
-		transform: scale(0.95) !important;
-	}
-}
-@media screen and (max-width: 756px) {
-	#canvas {
-		transform: scale(0.9) !important;
-	}	
-}
-
 
 .magazine-viewport{
 	position: absolute !important;
@@ -40,7 +24,7 @@ body{
 	width:922px;
 	height:650px;
 	left:-461px;
-	top:-350px !important;
+	top:-300px !important;
 }
 
 .magazine-viewport .page{
