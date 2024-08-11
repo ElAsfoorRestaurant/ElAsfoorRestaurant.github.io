@@ -1,8 +1,8 @@
 const url_fb =
-    "https://www.facebook.com/El-Asfoor-Salon-De-Th%C3%A9Restaurant-109861641429696/";
+    "https://www.facebook.com/share/5FgbhiZ4CmS9mao5/";
 
 const url_insta =
-    "https://www.instagram.com/el_asfoor_salon_de_the_resto/";
+    "https://www.instagram.com/el__asfoor?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==";
 
 const url_tripadvisor =
     "https://www.tripadvisor.com/Restaurant_Review-g297947-d4461610-Reviews-El_Asfour-Mahdia_Mahdia_Governorate.html";
