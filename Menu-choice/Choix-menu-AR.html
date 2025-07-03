@@ -1,14 +1,17 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>El Asfour - Salon de Thé</title>
+<title>El Asfour - قائمات المطاعم</title>
 <meta name="viewport" content="width=device-width" />
 <link rel="icon" type="image/png" href="../static/images/favicon.png" />
 
 <!-- CSS FILES -->
+<style>
+	body {direction: rtl;}
+</style>
 <link rel="stylesheet" href="../static/font-awesome-4.7.0/css/font-awesome.min.css" />
 <link rel="stylesheet" href="../static/css/social.css" />
-<link rel="stylesheet" href="css/salon-de-the.css" />
+<link rel="stylesheet" href="css/menu.css" />
 
 <!-- JS FILES -->
 <script type="text/javascript" src="../static/js/jquery.min.1.7.js"></script>
@@ -16,12 +19,27 @@
 </head>
 <body>
 
+    <div class="title">
+        <div class="wrapper">
+			<div class="icon back_home">
+				<span onclick="index()"><i class="fa fa-arrow-right"></i></span>
+			</div>
+            يرجى اختيار القائمة التي ترغب في عرضها !
+		</div>
+    </div>    
+
+    <div class="container">
+        <span class="custom-button">
+            <a 
+                href="../Nourriture/Nourriture-AR.html" 
+                data-button-content="قائمة طعام المطعم">
+            </a>
+        </span>
+        <div class="break"></div>
+	</div>
+
 	<div class="social">
 		<div class="wrapper">
-			<div class="icon back_home">
-				<span onclick="menuList('FR')"><i class="fa fa-arrow-left"></i></span>
-			</div>
-			<div class="icon breaker"></div>
 			<div class="icon facebook">
 			<div class="tooltip">Facebook</div>
 			<span><i class="fa fa-facebook-f"></i></span>
@@ -35,17 +53,6 @@
 			<span><i class="fa fa-tripadvisor"></i></span>
 			</div>
 		</div>
-	</div>
-
-	<div class="menu-container">
-		<img src="pages/FR/2.jpg" />
-		<img src="pages/FR/3.jpg" />
-		<img src="pages/FR/4.jpg" />
-		<img src="pages/FR/5.jpg" />
-		<img src="pages/FR/6.jpg" />
-		<img src="pages/FR/7.jpg" />
-		<img src="pages/FR/8.jpg" />
-		<img src="pages/FR/9.jpg" />
 	</div>
 
 <!-- Custom JS Files -->

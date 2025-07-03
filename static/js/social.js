@@ -31,7 +31,12 @@ $('.tripadvisor').first().click(function() {
 
 const base_url_menu_list = "../Menu-choice/Choix-menu-";
 
-function menuListFR() {
-    let url_menu_list = base_url_menu_list + "FR.html";
+function menuList(language) {
+    let url_menu_list = base_url_menu_list + language + ".html";
     window.location.href = url_menu_list;
+}
+
+function index() {
+    let url_index = "../index.html";
+    window.location.href = url_index;
 }
